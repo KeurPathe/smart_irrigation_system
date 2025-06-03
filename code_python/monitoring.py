@@ -26,7 +26,7 @@ current_month = now.month
 current_year = now.year
 
 # ENREGISTREMENT
-data_prototype = fr"d:\Programmation & simulation\Projets\système d'irrigation automatique\projet\projet6\data\data_prototype.csv"
+data_prototype = fr"data\data_prototype.csv"
 fichier_prototype = open(data_prototype, "a", encoding="utf-8")
 # Écrire l'en-tête s’il est vide
 if os.stat(data_prototype).st_size == 0:
