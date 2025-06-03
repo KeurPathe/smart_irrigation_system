@@ -1,0 +1,12 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo12 -N"D:\Programmation & simulation\Projets\système d'irrigation automatique\projet\projet5\projet.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\Programmation & simulation\Projets\système d'irrigation automatique\projet\projet5\" -IP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "projet.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_C.mcl" "__Lib_UART_c67.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	projet.c
+warning: 128	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	projet.c
+diagnostics: 353	123	Compiled Successfully	projet.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RAM (bytes): 168 (48%)  Free RAM (bytes): 184 (52%)	Used RAM (bytes): 168 (48%)  Free RAM (bytes): 184 (52%)
+hint: 0	1144	Used ROM (program words): 1940 (24%)  Free ROM (program words): 6252 (76%)	Used ROM (program words): 1940 (24%)  Free ROM (program words): 6252 (76%)
+diagnostics: 0	125	Project Linked Successfully	projet.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'projet.mcppi' completed: 250 ms	 
+diagnostics: 0	103	Finished successfully: 02 juin 2025, 13:22:47	projet.mcppi
