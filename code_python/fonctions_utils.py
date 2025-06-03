@@ -36,7 +36,7 @@ def enregistrement(fichier, data1, data2, data3, data4, data5):
 
 def enregistrement_mensuel(current_month, current_year, data1, data2, data3, data4, data5):
     files_name = f"{current_year}_{current_month:02d}.csv"
-    files_path = fr"d:\Programmation & simulation\Projets\système d'irrigation automatique\projet\projet6\data\{files_name}"
+    files_path = fr"data\{files_name}"
     with open(files_path, mode="w", newline="", encoding="utf-8") as fichier:
         writer = csv.writer(fichier)
         writer.writerow(
